@@ -49,6 +49,7 @@ $prod = [
                                 <h5 class="card-title"> <?php echo $prodotto->getNome(); ?></h5>
                                 <p class="card-text">Prezzo: <?php echo $prodotto->getPrezzo(); ?>€</p>
                                 <p class="card-text">Categoria: <?php echo $prodotto->categoria->categoria; ?></p>
+                                <p>Tipo prodotto:</p>
                             </div>
                         </div>
                     </div>
