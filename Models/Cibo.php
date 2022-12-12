@@ -3,7 +3,7 @@ require_once __DIR__ . "/Prodotto.php";
 
 class Cibo extends Prodotto
 {
-    public $tipo = "Cibo";
+    public $tipo;
     public $peso;
     public $data;
     public $eta;
