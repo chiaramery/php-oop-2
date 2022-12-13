@@ -22,31 +22,4 @@ class Prodotto
         $this->categoria = $categoria;
         $this->prezzo = $prezzo;
     }
-
-    /**
-     * Description setPrezzo
-     * @param {Float} $prezzo
-     **/
-    public function setPrezzo(Float $prezzo)
-    {
-        $this->prezzo = $prezzo;
-    }
-
-    /**
-     * Description getPrezzo
-     * @returns {Float} prezzo
-     **/
-    public function getPrezzo()
-    {
-        return $this->prezzo;
-    }
-
-    /**
-     * Description getNome
-     * @returns {String} nome
-     **/
-    public function getNome()
-    {
-        return $this->nome;
-    }
 }

@@ -46,8 +46,8 @@ $prod = [
                         <div class="card border-dark" style="max-width: 15rem;">
                             <img src="<?php echo $prodotto->poster; ?>" alt="">
                             <div class="card-body text-dark">
-                                <h5 class="card-title"> <?php echo $prodotto->getNome(); ?></h5>
-                                <p class="card-text">Prezzo: <?php echo $prodotto->getPrezzo(); ?>€</p>
+                                <h5 class="card-title"> <?php echo $prodotto->nome; ?></h5>
+                                <p class="card-text">Prezzo: <?php echo $prodotto->prezzo; ?>€</p>
                                 <p class="card-text">Categoria: <?php echo $prodotto->categoria->categoria; ?></p>
                                 <p>Tipo prodotto: <?php echo $prodotto->tipo;  ?></p>
                             </div>

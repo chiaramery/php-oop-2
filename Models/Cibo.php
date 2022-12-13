@@ -27,49 +27,4 @@ class Cibo extends Prodotto
         $this->eta = $eta;
         $this->gusto = $gusto;
     }
-
-    /**
-     * Description getTipo
-     * @returns {String} tipo del cibo
-     **/
-    public function getTipo()
-    {
-        return $this->tipo;
-    }
-
-    /**
-     * Description getPeso
-     * @returns {peso}
-     **/
-    public function getPeso()
-    {
-        return $this->peso;
-    }
-
-    /**
-     * Description getData
-     * @returns {String} data di scadenza del cibo
-     **/
-    public function getData()
-    {
-        return $this->data;
-    }
-
-    /**
-     * Description getEta
-     * @returns {String} eta dell'animale che va a seconda del cibo
-     **/
-    public function getEta()
-    {
-        return $this->eta;
-    }
-
-    /**
-     * Description getGusto
-     * @returns {String} gusto del cibo
-     **/
-    public function getGusto()
-    {
-        return $this->gusto;
-    }
 }
